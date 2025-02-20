@@ -70,7 +70,7 @@ class _SettingScreenState extends State<SettingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cài đặt'),
+        title: const Text('Setting'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
@@ -107,7 +107,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 );
               },
               child: const Text(
-                'Đăng xuất',
+                'Log out',
                 style: TextStyle(
                   color: Colors.red,
                 ),
