@@ -1,0 +1,1 @@
+ C:\\Users\\punyanuch\\Desktop\\test_Project\\Database\\sqllite\\Test_database\\Sqflite\\.dart_tool\\flutter_build\\5506e1108dc8c637488466d65768ec2a\\native_assets.yaml: 

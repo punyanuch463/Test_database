@@ -52,8 +52,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     int userId = await signUp(username, password);
 
                     if (userId != -1) {
-                      // Đăng ký thành công, bạn có thể thực hiện các hành động khác ở đây
-                      print(
+                           print(
                           'Registration successful - UserID: $userId, Username: $username, Password: $password');
                       navigateToLoginScreen();
                     } else {
@@ -68,8 +67,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               ),
               TextButton(
                 onPressed: () {
-                  // Chuyển hướng đến màn hình đăng nhập
-                  navigateToLoginScreen();
+                     navigateToLoginScreen();
                 },
                 child: Text("Login"),
               )
@@ -81,26 +79,26 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   bool isValidUsername(String username) {
-    // Kiểm tra logic hợp lệ cho username (ví dụ: không trống)
+   
     return username.isNotEmpty;
   }
 
   bool isValidPassword(String password) {
-    // Kiểm tra logic hợp lệ cho password (ví dụ: có độ dài đủ)
+ 
     return password.length >= 6;
   }
 
   Future<int> signUp(String username, String password) async {
     DatabaseHelper dbHelper = DatabaseHelper.instance;
 
-    // Kiểm tra xem username đã tồn tại chưa
+   
     User? existingUser = await dbHelper.loginUser(username, password);
     if (existingUser != null) {
-      // Tên người dùng đã tồn tại, trả về -1 để báo lỗi
+     
       return -1;
     }
 
-    // Nếu tên người dùng chưa tồn tại, thực hiện đăng ký
+ 
     User newUser = User(username: username, password: password);
     int userId = await dbHelper.registerUser(newUser);
 
@@ -128,7 +126,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   void navigateToLoginScreen() {
-    // Chuyển hướng đến màn hình đăng nhập
+  
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (context) => LoginScreen()),
