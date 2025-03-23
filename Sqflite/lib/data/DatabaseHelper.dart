@@ -163,6 +163,7 @@ class DatabaseHelper {
     );
   }
 
+
   Future<int> registerUser(User user) async {
     Database db = await instance.database;
     return await db.insert('users', user.toMap());

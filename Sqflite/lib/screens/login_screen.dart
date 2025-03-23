@@ -1,7 +1,6 @@
 import 'package:quan_ly_benh_nhan_sqlite/data/DatabaseHelper.dart'; // Import your DatabaseHelper class
-import 'package:quan_ly_benh_nhan_sqlite/models/User.dart'; // Import your User class
+// Import your User class
 import 'package:quan_ly_benh_nhan_sqlite/screens/home_screen.dart'; // Import your HomeScreen or any screen you want to navigate to after successful login
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:quan_ly_benh_nhan_sqlite/screens/signup_screen.dart';
 

@@ -1,0 +1,2 @@
+C:/Users/punyanuch/Desktop/test_Project/github/Test_database/Sqflite/android/app/.cxx/Debug/241b2t6n/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/punyanuch/Desktop/test_Project/github/Test_database/Sqflite/android/app/.cxx/Debug/241b2t6n/armeabi-v7a/CMakeFiles/rebuild_cache.dir

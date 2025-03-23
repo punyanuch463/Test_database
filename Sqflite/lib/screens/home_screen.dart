@@ -4,7 +4,6 @@ import 'package:quan_ly_benh_nhan_sqlite/models/Patient.dart';
 import 'package:quan_ly_benh_nhan_sqlite/screens/login_screen.dart';
 import 'package:quan_ly_benh_nhan_sqlite/screens/manager_patients.dart';
 import 'package:quan_ly_benh_nhan_sqlite/screens/manager_record.dart';
-import 'package:quan_ly_benh_nhan_sqlite/screens/setting.dart';
 
 import '../main.dart'; // Import your Patient class
 
